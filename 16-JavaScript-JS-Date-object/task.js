@@ -7,7 +7,7 @@ let date = new Date();
 /*
 2. Use the console to log out todays date.
 */
-console.log(date);
+console.log(date.getDate());
 
 /*
 3. Create two new variables called hour and min, and assign the
