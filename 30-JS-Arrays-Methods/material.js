@@ -50,7 +50,7 @@ const supers3 = "Superman, Batman, Flash";
 const newSupers2 = supers3.split(", ");
 console.log(newSupers2);
 
-// .slice is a method to cut/slice an array or create a sub array from one array to other array
+// .slice is a method to cut/slice an array or create a sub array from one array to aother
 const supers4 = [
   "Superman",
   "Batman",

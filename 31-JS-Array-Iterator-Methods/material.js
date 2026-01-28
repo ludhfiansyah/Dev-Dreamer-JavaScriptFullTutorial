@@ -11,7 +11,7 @@ let supers = [
   "Profesor X",
 ];
 
-// .forEach method is to perform sort of an action to each value thats why we need to put a function inside the pareanthases
+// .forEach method is to perform sort of an action to each value thats why we need to put a function inside the parenthases
 supers.forEach(function (value, index, array) {
   // console.log(`${value}`);
   // console.log(value);
@@ -49,7 +49,7 @@ let evenNumbers1 = numbers2.filter(function (value, index, array) {
 console.log(numbers2);
 console.log(evenNumbers1);
 
-// .reduce method will run a function on each value inside an array reduce the array down to a single value. reduce method can be used to string and oter data type as well, but it mostly used in number. reduce method can take up to 4 parameters where mostly only the first two are frequently used.
+// .reduce method will run a function on each value inside an array to reduce the array down to a single value. reduce method can be used to string and oter data type as well, but it mostly used in number. reduce method can take up to 4 parameters where mostly only the first two are frequently used.
 let numbers3 = [1, 2, 3, 50, 45, 77, 12, 34, 76, 90, 13, 100];
 
 function add(total, value, index, array) {
