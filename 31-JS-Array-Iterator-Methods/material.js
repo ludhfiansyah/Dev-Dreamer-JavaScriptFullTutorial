@@ -59,7 +59,7 @@ function add(total, value, index, array) {
 let sum = numbers3.reduce(add);
 console.log(sum);
 
-// .some method will iterate over an array to checks if the given condition is true for at least one of the values, if it is it will return true if all values are not meet the condition, it will return false
+// .some method will iterate over an array to checks if the given condition is true for at least one of the values, if it is, then it will return true and  if all values are not meet the condition, it will return false
 let numbers4 = [1, 2, 3, 112];
 let higherThanTen = numbers4.some(function (value) {
   return value > 10;
